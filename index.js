@@ -21,7 +21,7 @@ function currentLine(katzDeliLine){
     return `The line is currently empty.`
   }
   else {
-    var curLine=[]
+    curLine=[]
     for (let i=0; i<katzDeliLine; i++){
       curLine.push(`${i+1}. ${katzDeliLine[i]}`)
     }
