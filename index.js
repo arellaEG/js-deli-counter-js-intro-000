@@ -11,7 +11,7 @@ function nowServing(katzDeliLine){
   }
   else {
     for (let i=0; i<katzDeliLine; i++){
-    return katzDeliLine[0]
+    return `Currently serving ${katzDeliLine[0]}`
     katzDeliLine.pop(i)}
   }
 }
