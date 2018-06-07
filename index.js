@@ -1,3 +1,4 @@
 function takeANumber(katzDeliLine, name){
-  i=katzDeliLine.length +1
+  var i=katzDeliLine.length +1
+  katzDeliLine.push(name)
 }
