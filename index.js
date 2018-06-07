@@ -10,6 +10,6 @@ function nowServing(katzDeliLine){
     return 'There is nobody waiting to be served!'
   }
   else {
-    console.log(`Currently serving ${katzDeliLine[0]}`)
-    katzDeliLine.pop(0)}
+    return (`Currently serving ${katzDeliLine[0]}`)}
+  katzDeliLine.pop(0)
   }
