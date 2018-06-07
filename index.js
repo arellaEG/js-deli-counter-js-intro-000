@@ -22,7 +22,10 @@ function currentLine(katzDeliLine){
   }
   curLine=[]
   else {
-    while 
-    return `The line is currently: `
+    for (let i=0; i<katzDeliLine; i++){
+      curLine.push(`${i+1}. ${katzDeliLine[i]}`)
+    }
+    
   }
+  return `The line is currently: $[curLine]`
 }
